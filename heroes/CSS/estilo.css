@@ -1,0 +1,100 @@
+*{ box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif ;
+}
+header, main{
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.descuento { display: flex;
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    align-items: center;
+    text-indent: 20px;
+
+}
+
+.heroe {display: flex;
+    width: 100%;
+    height: 101px;
+    top: 38px;
+    background-color: #00669F;
+    color: black;
+    align-items: center;
+    text-indent: 20px;
+}
+
+.peliculas {display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+    
+
+
+}
+.peli1, .peli2, .peli3 {
+    margin:auto;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    padding-bottom: 50px;
+    margin-top: 200px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+    box-shadow: 0 5px 30px rgb(255, 255, 255);
+    background-color: #F3F3F3;   
+}
+.harly {display: flex;
+right: 30px;}
+.perfil {border-radius: 100%;
+position: relative;
+left: 85px;
+bottom: 65px;
+ }
+.heart { position: relative;
+right: 100px;
+bottom: 175px;
+border-top: 100px;
+width: 30px;
+height: 26.25px;
+
+}
+.peliculas h2{position: relative;
+right: 50px;
+top: 70px;
+text-align: center;}
+
+.hashtag {position: relative;
+text-align: center;
+left: 110px;
+top: 20px}
+
+.peliculas a{  background-color: #00669F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 20px;
+    justify-content: center;
+    position: relative;
+    bottom: 0px
+}
+footer {display: flex;
+background-color: #00669F;
+width: 1000px;
+height: 60px;
+text-align: center;
+text-indent: 20px;
+align-items: center;
+margin: auto;
+}

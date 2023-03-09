@@ -1,0 +1,22 @@
+h1 { font-size: 40px;
+     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: darkgoldenrod   ;
+ 
+
+  }
+
+p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch: narrower;
+    font-style: italic;
+
+    
+}
+body {background-color: rgba(192, 235, 52, 0.8);
+}
+
+h2 {text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+
+}
