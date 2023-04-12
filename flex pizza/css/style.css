@@ -1,0 +1,106 @@
+*{box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+header {display: flex;
+        width: 1100px;
+        align-items: center;
+        background-color: #222222;
+    } 
+main {display: flex;
+    width: 1200px;
+    content: center;
+    align-items: center;
+    }
+.logo1 { position: relative;
+    width: 220px;
+    height: 80px;
+    left: 10px;
+    border-radius: 10px;
+    
+}
+.navegador1 {position:absolute;
+             display: inline-block;
+             left: 760px;
+             word-spacing: 20px;
+            }
+.nave {text-decoration: none;
+       color: white;
+}
+.principiofin {
+    height: 100px;
+}
+nav {display: flex;
+    margin-left 1000px;
+}
+body {background-color: #E5E5E5;
+        
+}
+
+section {display: flex;
+        margin: 40px;
+        justify-content: flex-start;
+        
+}
+
+            
+.encabezado1{ position: relative;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              bottom: 345px;
+              color: red;
+              right: 50px;
+            }           
+.compra {
+         color: white;
+        }
+.articulo2{ position: relative;
+            background-color: white;
+            padding-inline: 40px;
+            align-items: stretch;
+            height: 349px;
+            border-radius: 5px;
+            left : 4px;
+} 
+.imagen2 {position: relative;
+          margin-left: 345px;
+          top: 143px;
+          width: 100px;
+          height: 140px;
+          right: 20px;
+        }
+.encabezado2{position: relative;
+             color: red;
+             margin-left: 130px;
+             bottom: 135px;
+}
+h3 {position: relative;
+    bottom: 90px;
+    left: 40px;
+       
+}
+
+.variedad { line-height: 28px;
+    position: relative; 
+    bottom: 90px;
+    }
+
+footer { display: flex;
+         position: relative;
+         align-items: center;
+         background-color: #222222;
+         bottom: 100px;
+         height:150px;
+         width: 1100px;
+         
+        }
+.logo {position: relative;
+      left: 850px;
+      width: 220px;
+      height: 80px;
+       }
+.busqueda {position: relative;
+           line-height: 28px;
+           right: 230px;
+               }
